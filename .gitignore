@@ -1,0 +1,42 @@
+# Ignore data files, large binaries, and secrets
+
+# OpenClaw workspace state (auto-managed, not source)
+data-intelligence-architect/
+.openclaw/
+
+# Capstone data
+psychology-self-study/capstone/data/raw/
+psychology-self-study/capstone/data/processed/
+psychology-self-study/capstone/report/*.pdf
+psychology-self-study/capstone/report/*.docx
+psychology-self-study/ethics/citi-certificate.pdf
+
+# Stats tool outputs (large)
+*.jasp
+*.RData
+*.rds
+*.Rhistory
+*.Rproj.user/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary / scratch
+*.tmp
+*.bak
+*.log
+
+# Anki deck builds (sync via AnkiWeb, not git)
+psychology-self-study/anki/*.apkg
+psychology-self-study/anki/collection/
+
+# Survey platform exports (often contain PII)
+psychology-self-study/capstone/instruments/exports/
+
+# Build artifacts
+*.html
+!psychology-self-study/**/*.html
