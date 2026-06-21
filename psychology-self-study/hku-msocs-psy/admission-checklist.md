@@ -1,5 +1,7 @@
 # HKU MSocSc(Psy) — Application Checklist
 
+> **Updated:** June 2026 — fees updated to 2026-27 estimates, refined per user input
+
 ## Pre-Application (Month 5–6)
 
 - [ ] Confirm you meet basic entry requirements (BEng or equivalent + English)
@@ -26,7 +28,29 @@
 - [ ] **Capstone report** as writing sample (excerpt, not full — 10–15 pages)
 - [ ] **CITI certificate** as ethics training evidence
 - [ ] **OSF preregistration** link for capstone
-- [ ] **GitHub** link to analysis code (R scripts)
+- [ ] **GitHub** link to analysis code (R + Python scripts)
+
+---
+
+## Tuition & Fees (2026-27, pending university approval)
+
+| Mode | Duration | Total Tuition |
+|---|---|---|
+| **Full-time** | 1 year | ~HK$209,800 |
+| **Part-time** | 2 years (evening) | ~HK$140,000 total (pro-rata) |
+| **Application fee** | — | ~HK$300 |
+
+Check current fees before submitting: https://psychology.hku.hk/admission-master-of-social-sciences-in-the-field-of-psychology/
+
+---
+
+## English Requirement
+
+- **TOEFL:** ≥ 80 (internet-based)
+- **IELTS:** ≥ 6.0 (no band < 5.5)
+- **Waiver:** if your BEng was English-medium
+
+Your BEng is likely English-medium in HK; confirm with HKU Grad School.
 
 ---
 
@@ -39,15 +63,15 @@
 
 ### Paragraph 2 — What You Bring (200 words)
 - BEng quantitative training
-- Real-world project management
-- Multi-disciplinary self-learning
+- **Real-world decision experience:** slope stability, Minor Works, tender preparation
+- Multi-disciplinary self-learning (MMA, AI agents, trading, etc.)
 - Specific psychology interests: name subfields, key papers, ideas
 
 ### Paragraph 3 — What You've Done (250 words)
 - The 6-month self-study
 - The capstone project
-- Stats + methods competency
-- Specific skills (JASP, R, SEM, survey design)
+- Stats + methods competency (JASP + R + **Python** — your Data Science cert is an edge)
+- Specific skills (survey design, factor analysis, regression, behavioral coding)
 
 ### Paragraph 4 — Why MSocSc(Psy) (200 words)
 - What the program provides that self-study cannot
@@ -82,7 +106,7 @@
 - Participants (N, recruitment)
 - Materials (measures, instruments)
 - Procedure
-- Planned analysis
+- Planned analysis (which inferential tests + effect sizes)
 
 ### Significance (100 words)
 - Theoretical contribution
@@ -104,6 +128,7 @@
 ### Referee 2 — Professional
 - Your manager / senior engineer
 - Can speak to: project management, problem-solving, working under pressure
+- **Specifically ask them to mention:** decision-making under uncertainty (slope/tender/Minor Works), self-learning initiative
 - Brief them on the psychology angle; ask them to highlight transferable skills
 
 ### Referee Prep Email Template
@@ -135,3 +160,13 @@ Saba
 - ❌ Typos / grammar issues (use a real human proofreader)
 - ❌ Sending forms late (HKU is strict on deadlines)
 - ❌ Forgetting to update your referees once you submit (good etiquette)
+- ❌ Forgetting to mention your Python / Data Science cert (it's a differentiator)
+
+---
+
+## If You Get Rejected
+
+1. **Ask for feedback** (rarely given but worth asking)
+2. **Reapply next year** with stronger capstone + 1 published blog post or conference poster
+3. **Pivot to BPsych** (4-year route) if the conversion path remains blocked — see `bpsych-as-alternative.md`
+4. **Apply to other programs** in parallel (CUHK, HKBU, PolyU all have conversion options)

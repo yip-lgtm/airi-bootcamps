@@ -27,19 +27,23 @@
 - Analyze + write capstone report
 
 ### Tasks
-- [ ] Import data to JASP + R
-- [ ] Run planned analyses (see `capstone/proposal-final.md`)
+- [ ] Import data to JASP + R + Python (use at least 2 of 3)
+- [ ] Run planned analyses (see `capstone/proposal-final.md`):
+  - Data cleaning
+  - Descriptives + reliability (Cronbach's α)
+  - At least 2 inferential tests
+  - Effect sizes reported
 - [ ] Generate APA-formatted tables + figures
-- [ ] Write 4000–8000 word report:
-  - Introduction (lit review)
-  - Method (participants, materials, procedure)
-  - Results (descriptives, inferential stats, figures)
-  - Discussion (interpretation, limitations, future directions)
-  - References (APA 7th)
-- [ ] Save final report to `capstone/report/capstone-final.pdf` (DO NOT commit binary, add to .gitignore — keep .md source in git)
+- [ ] Write 4000–6000 word report (APA 7th):
+  - Introduction (lit review + RQs + hypotheses) — 25%
+  - Method (participants, materials, procedure, analysis plan) — 20%
+  - Results (descriptives, inferential stats, tables, figures) — 25%
+  - Discussion (interpretation, limitations, future directions) — 25%
+  - References
+- [ ] Save final report to `capstone/report/capstone-final.md` (source, commit this) + render to PDF (don't commit)
 
 ### Deliverable
-- **Milestone 6: 4000–8000 word capstone report complete**
+- **Milestone 6: 4000–6000 word capstone report complete**
 
 ---
 

@@ -74,7 +74,7 @@
 
 ### Tasks
 - [ ] Pick 1 fictional case (e.g., a public figure, a movie character) and write a case conceptualization
-- [ ] Use biopsychosocial framework
+- [ ] Use **diathesis-stress model** framework (predisposition + environmental trigger)
 - [ ] 1–2 pages, no DSM diagnosis required (use descriptive language)
 
 ### Deliverable

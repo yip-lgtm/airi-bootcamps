@@ -14,9 +14,10 @@
 psychology-self-study/
 ├── README.md                        ← you are here
 ├── ROADMAP.md                       ← 6-month plan at a glance
+├── LICENSE
 ├── resources/                       ← curated textbooks, tools, courses
 │   ├── textbooks.md
-│   ├── stats-tools.md
+│   ├── stats-tools.md               ← JASP + R + Python (all 3 covered)
 │   ├── courses.md
 │   └── ethics.md
 ├── curriculum/                      ← month-by-month learning
@@ -26,18 +27,19 @@ psychology-self-study/
 │   ├── month-04-abnormal-electives/
 │   ├── month-05-advanced-academic-skills/
 │   └── month-06-capstone-application/
-├── hku-msocs-psy/                   ← application prep
-│   ├── course-mapping.md
+├── hku-msocs-psy/                   ← application prep (primary target)
+│   ├── course-mapping.md            ← 8 compulsory courses + electives
 │   ├── admission-checklist.md
-│   └── faculty-research-areas.md
+│   ├── faculty-research-areas.md
+│   └── bpsych-as-alternative.md     ← 4-year BPsych fallback path
 ├── capstone/                        ← the killer project
 │   ├── README.md
 │   ├── project-ideas.md
 │   ├── proposal-template.md
 │   ├── instruments/
-│   ├── data/
-│   ├── analysis/
-│   └── report/
+│   ├── data/                        ← gitignored, PII safe
+│   ├── analysis/                    ← R + Python + JASP outputs
+│   └── report/                      ← capstone-final.md
 ├── progress/                        ← tracking
 │   ├── streak.md
 │   ├── weekly-review-template.md
@@ -45,6 +47,8 @@ psychology-self-study/
 ├── papers/                          ← primary literature logs
 │   ├── classic-readings.md
 │   └── reading-method-3pass.md
+├── reference/                       ← external reference docs
+│   └── hku-bpsych-2023-24-regulations.md
 └── notes/                           ← free-form daily study notes
 ```
 

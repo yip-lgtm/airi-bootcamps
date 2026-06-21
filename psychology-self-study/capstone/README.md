@@ -27,23 +27,23 @@
 ## Project Ideas (pick or adapt)
 
 ### 1. "Personality and Decision-Making Style in Engineering Professionals" (JDM + Personality)
-- **Sample:** 100+ engineers (your network, LinkedIn, r/civilengineering)
+- **Sample:** 100+ engineers (your network, LinkedIn, r/civilengineering, HKIE)
 - **Measures:** Big Five (IPIP-NEO-120) + General Decision-Making Style (GDMS) + Domain-Specific Risk-Taking (DOSPERT)
 - **Research questions:**
   - RQ1: Which Big Five traits predict analytical vs intuitive decision styles?
-  - RQ2: Does risk-taking in engineering correlate with risk-taking in financial contexts?
-- **Why strong:** Quant-friendly, personality, JDM, your network, fast recruitment
+  - RQ2: Does occupational risk-taking (slope, tender, site) correlate with financial risk-taking (trading)?
+- **Why strong:** Quant-friendly, personality, JDM, your network, fast recruitment, **leverages your real work experience**
 
 ### 2. "Self-Regulation and Adherence in Solo Athletic Training" (Health Psych)
 - **Sample:** 80+ recreational athletes (MMA, gym, running communities)
 - **Measures:** Self-Regulation Questionnaire (SRQ) + Brief Self-Control Scale + Sport Motivation Scale + adherence log
 - **Research questions:**
-  - RQ1: Does self-regulation predict training adherence over 4 weeks?
+  - RQ1: Does trait self-regulation predict training adherence over 4 weeks?
   - RQ2: What psychological factors differentiate high-adherers from low-adherers?
 - **Why strong:** MMA angle, behavioral, longitudinal, applied
 
 ### 3. "Metacognition in Self-Directed Multi-Domain Learning" (Educational Psych)
-- **Sample:** 80+ polymaths / multi-domain self-learners
+- **Sample:** 80+ polymaths / multi-domain self-learners (Reddit r/selflearning, Twitter #autodidact, your network)
 - **Measures:** Metacognitive Awareness Inventory (MAI) + Self-Regulated Learning (SRL) + learning log
 - **Research questions:**
   - RQ1: How do successful multi-domain self-learners monitor their own learning?
@@ -54,7 +54,7 @@
 - **Sample:** 60+ retail traders (with ethical review considerations)
 - **Measures:** Perceived Stress Scale (PSS) + Big Five + DOSPERT + behavioral trading log
 - **Research questions:**
-  - RQ1: Does stress predict risk-taking in simulated trading tasks?
+  - RQ1: Does perceived stress predict risk-taking in simulated trading tasks?
   - RQ2: Do personality traits moderate the stress-risk relationship?
 - **Why strong:** Trading angle, behavioral finance, quantitative
 - **Risk:** Mental health considerations in research design
@@ -79,10 +79,34 @@
 - [ ] Survey instrument drafted
 - [ ] Pilot completed (N = 5–10)
 - [ ] Main data collection (N ≥ target)
-- [ ] Analysis complete
-- [ ] Report drafted
+- [ ] Analysis complete (JASP + R/Python — at least 2 tools)
+- [ ] Report drafted (4000–6000 words)
 - [ ] Report polished
 - [ ] (Optional) submitted to student journal
+
+---
+
+## Capstone Format (Updated Spec)
+
+**Length:** 4000–6000 words
+**Style:** APA 7th edition
+**Structure:**
+1. **Introduction** (lit review + research questions + hypotheses) — 25%
+2. **Method** (participants, materials, procedure, analysis plan) — 20%
+3. **Results** (descriptives, inferential stats, effect sizes, tables, figures) — 25%
+4. **Discussion** (interpretation, limitations, future directions) — 25%
+5. **References** — separate page
+6. **Appendices** (instruments, code) — optional
+
+**Required analysis components** (from refined roadmap):
+- [ ] Data cleaning procedure
+- [ ] Descriptives (means, SDs, frequencies)
+- [ ] Reliability (Cronbach's α for each scale)
+- [ ] At least 2 inferential tests (e.g., correlation + regression; or t-test + ANOVA)
+- [ ] Effect sizes (Cohen's d, η², r²)
+- [ ] At least one group comparison OR one regression model
+
+**Tools:** Use at least 2 of {JASP, R, Python} for the analysis (your Python cert is an asset — show it).
 
 ---
 
@@ -100,10 +124,25 @@ capstone/
 │   └── <survey-name>.md
 ├── data/                        ← raw + processed (DO NOT commit raw)
 │   ├── .gitkeep
+│   ├── README.md
 │   └── data-dictionary.md
-├── analysis/                    ← JASP files + R scripts
-│   └── <analysis-script>.R
+├── analysis/                    ← JASP files + R scripts + Python notebooks
+│   ├── analysis-script.R
+│   └── analysis-notebook.ipynb
 └── report/                      ← final write-up
     ├── capstone-final.md        ← source (commit this)
-    └── .gitkeep                 ← PDF output (don't commit)
+    ├── capstone-final.pdf       ← rendered output (don't commit)
+    └── .gitkeep
 ```
+
+---
+
+## Connection to Application
+
+Your capstone serves three functions in the HKU application:
+
+1. **Research Proposal** (1 page) — distilled from your capstone proposal
+2. **Writing Sample** (optional, 10–15 pages) — excerpt from your capstone report
+3. **PS Material** — concrete evidence you can do research, not just read about it
+
+A strong capstone is the **single best predictor** of admission to MSocSc(Psy).
